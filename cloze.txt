@@ -1,0 +1,2 @@
+{"full":"The Union / North won the civil war","cloze":"the union / north","partial":"... won the civil war"}
+{"full":"George Washington was the first president of the USA","cloze":"George Washington","partial":"... was the first president of the USA"}
