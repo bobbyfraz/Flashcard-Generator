@@ -1,12 +1,12 @@
 var fs = require("fs");
 
-exports.clozeCardCon = function(full, close) {
+exports.clozeCardCon = function(full, cloze) {
 	this.file = "cloze.txt";
 	this.cloze = cloze;
 	this.full = full;
 
 	this.partial = function() {
-		var updateText = this.full.toLowerCase().replace(this.close.toLowerCase(), "...");
+		var updateText = this.full.toLowerCase().replace(this.cloze.toLowerCase(), "...");
 		return updateText;
 	};
 

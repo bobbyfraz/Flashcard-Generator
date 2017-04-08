@@ -1,0 +1,23 @@
+{
+  "name": "Flashcard-Generator",
+  "version": "1.0.0",
+  "description": "This is an application that can be used as a replacement for traditional flash cards.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyfraz/Flashcard-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbyfraz/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/bobbyfraz/Flashcard-Generator#readme",
+  "dependencies": {
+    "inquirer": "^3.0.6"
+  }
+}

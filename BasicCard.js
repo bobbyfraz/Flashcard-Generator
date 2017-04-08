@@ -9,11 +9,11 @@ exports.basicCardCon = function(question, answer) {
 		fs.appendFile(this.file, JSON.stringify({
 			front: this.front,
 			back: this.back
-
 		}) + "\n", function(error) {
 			if(error){ console.log("error appending")}
 		});
 	};
+
 	this.getFile = function(callback) {
 		fs.readFile(this.file, "utf8", function(error, data) {
 				if(error){
